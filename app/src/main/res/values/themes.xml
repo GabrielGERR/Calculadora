@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculadora" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/cor_primaria</item>
+        <item name="colorPrimaryVariant">@color/cor_primaria_variante</item>
+        <item name="colorSecondary">#CFE71E</item>
+        <item name="colorSecondaryVariant">#C20000</item>
+        <item name="backgroundColor">@color/black</item>
+    </style>
+    <style name="TextViewWithBackgroundColor" parent="android:Widget.TextView">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="Theme.Calculadora" parent="Base.Theme.Calculadora">
+
+        <item name="android:textColor">#000000</item>
+    </style>
+</resources>
